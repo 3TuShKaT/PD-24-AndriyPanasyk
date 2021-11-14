@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ib+e1wQ4+sdiQn8VzJWwSwtQgbsnYe+ISEg2DYq2aRwhjTjEa8YASQblmbAXODnTNyfmXKVcWrk71UXEHWlccQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\andri\\source\\repos\\lab5\\lab5\\lab5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andri\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512",
+    "C:\\Users\\andri\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\andri\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\andri\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
