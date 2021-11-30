@@ -4,11 +4,11 @@ namespace lab3
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) // чому в 2 лабі було 7 завдання а тут 6? 
         {
-            Console.WriteLine("Insert K1: ");
+            Console.WriteLine("Insert K1: "); // те ж саме зауваження що й до 2 лабораторної
             string k1;
-            k1 = Console.ReadLine();
+            k1 = Console.ReadLine(); //якщо користувач ввеже числа більші 4/10 або менше 1 буде помилка виконання нижче
 
             Console.WriteLine("Insert K2: ");
             string k2;
@@ -35,7 +35,7 @@ namespace lab3
             {
                 for (int j=0; j<10; j++)
                 {
-                    Console.Write("|" + Array[i, j] + "|");
+                    Console.Write("|" + Array[i, j] + "|"); // для двовимірних масивів найкраще використовувати табуляцію
                 }
                 Console.WriteLine();
             }
