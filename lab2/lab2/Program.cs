@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace lab2
+namespace lab2 // на майбутнє, бажано писати завдання до лаби в заголовку
 {
     class Program
     {
@@ -11,8 +11,8 @@ namespace lab2
             n = Console.ReadLine();
 
             int numberOfArray;
-            numberOfArray= int.Parse(n);
-
+            numberOfArray= int.Parse(n); //якщо ввести з клавіатури не число, програма завалиться з помилкою
+            //5 верхніх рядочків можна було записати в 1 int.TryParse(Console.ReadLine(), out string numberOfArray)
             int counter = 0;
             int[] array = new int[numberOfArray];
 
@@ -26,7 +26,7 @@ namespace lab2
 
             for (int i=0; i<array.Length; i++)
             {
-                for (int j = i + 1; j < array.Length; j++)
+                for (int j = i + 1; j < array.Length; j++) // по ідеї в тебе в якийсб з моментів буде indexOtOfRange.Exeption
                 {
                     if (array[i] == array[j])
                     {
@@ -34,7 +34,8 @@ namespace lab2
                     }
                 }
             }
-            Console.WriteLine($"Counter of max repetetive elements of array is: {counter}");
+            Console.WriteLine($"Counter of max repetetive elements of array is: {counter}");  //я так розумію ти робив 7 завдання, тоді воно виконано не зовсім правильно
+            //треба знайти максимальну кількість повторень елементу з масиву, тобто який з елементів масиву повторюється найчастіше
         }
     }
 }
